@@ -1,0 +1,335 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+header {
+  background: linear-gradient(135deg, #6a4fa8, #1b102d);
+    color: #fff;
+    padding: 40px 0;
+  
+  font-weight: 700;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+  color: #ecf0f1;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 3px solid #fff;
+}
+
+nav {
+  background: #3b2c50;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+
+}
+
+
+/* Education Section */
+#education {
+  background: #ecf0f1;
+  padding: 40px 20px;
+}
+
+#education h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.education-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.relevant-courses {
+  list-style: square;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* Projects Section */
+#projects {
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.project h3 {
+  color: #2c3e50;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project a:hover {
+  color: #e74c3c;
+  
+}
+#about-me {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #333;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Skills Section */
+#skills {
+  background: #ecf0f1;
+  padding: 40px 20px;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  max-width: 800px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills-list li {
+  margin: 10px 0;
+}
+#certification{
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+.cer-list{
+  max-width: 800px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  list-style: square;
+  padding-left: 20px;
+  text-align: left;
+}
+#certification a{
+  display: inline-block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+#certification a:hover{
+  color: #e74c3c;  /* باقي اضيف صور شهاداتي */
+}
+
+#certification  h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  background: #ecf0f1;
+  padding: 40px 20px;
+  text-shadow: #6a4fa8;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+  background-color: #6a4fa8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #8251be;
+  transform: scale(1.04);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #6a4fa8, #1b102d);
+  color: #fff;
+ 
+
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+
+transform: scale(1.4);
+filter: brightness(2);
+}
+@media (max-width: 576px) {
+  header h1 {
+      font-size: 1.5rem;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .project, .education-content {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .profile-img {
+      width: 100px;
+      height: 100px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2rem;
+  }
+
+  nav ul li {
+      margin: 5px 10px;
+      display: inline-block;
+  }
+
+  .project, .education-content {
+      padding: 15px;
+  }
+
+  .profile-img {
+      width: 120px;
+      height: 120px;
+  }
+}
+@media (max-width: 992px) {
+  header h1 {
+      font-size: 2.2rem;
+  }
+
+  .project, .education-content {
+      padding: 20px;
+  }
+
+  .profile-img {
+      width: 140px;
+      height: 140px;
+  }
+
+  nav ul li {
+      margin: 0 15px;
+  }
+}
